@@ -415,7 +415,6 @@ export const ContactSection: React.FC = () => (
             </svg>
           </a>
         </div>
-        </div>
         <div className="bg-white/5 p-10 rounded-3xl backdrop-blur-sm border border-white/10">
           <h3 className="text-2xl font-bold mb-6">Envie uma mensagem</h3>
           <form className="space-y-4">
