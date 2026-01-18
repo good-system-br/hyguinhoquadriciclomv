@@ -194,7 +194,7 @@ export const TourPackages: React.FC<{ id?: string }> = ({ id }) => {
       price: "160", 
       time: "40 - 60 min", 
       desc: "Ideal para iniciantes e quem quer curtir a trilha com calma.",
-      img: "./img/WhatsApp Image 2025-12-02 at 10.56.35 (1).jpeg",
+      img: "/img/WhatsApp Image 2025-12-02 at 10.56.35 (1).jpeg",
       features: ["Trilha guiada", "Equipamentos inclusos", "Fotos do passeio"]
     },
     { 
@@ -202,7 +202,7 @@ export const TourPackages: React.FC<{ id?: string }> = ({ id }) => {
       price: "160", 
       time: "A combinar", 
       desc: "Uma experiência mística sob o céu estrelado da fazenda.",
-      img: "./img/WhatsApp Image 2025-12-02 at 10.56.38 (3).jpeg",
+      img: "/img/WhatsApp Image 2025-12-02 at 10.56.38 (3).jpeg",
       features: ["Aventura noturna", "Céu estrelado", "Experiência única"]
     },
     { 
@@ -211,7 +211,7 @@ export const TourPackages: React.FC<{ id?: string }> = ({ id }) => {
       time: "1h a 1h 30min", 
       isPopular: true,
       desc: "A vista mais incrível da região. Saída exclusiva às 17:00.",
-      img: "./img/WhatsApp Image 2025-12-02 at 10.56.40.jpeg",
+      img: "/img/WhatsApp Image 2025-12-02 at 10.56.40.jpeg",
       features: ["Vista espetacular", "Melhor horário", "Fotos profissionais"]
     }
   ];
@@ -311,14 +311,14 @@ export const TourPackages: React.FC<{ id?: string }> = ({ id }) => {
 
 export const Gallery: React.FC = () => {
   const galleryImages = [
-    "./img/WhatsApp Image 2025-12-02 at 10.56.35.jpeg",
-    "./img/WhatsApp Image 2025-12-02 at 10.56.36 (1).jpeg",
-    "./img/WhatsApp Image 2025-12-02 at 10.56.36 (2).jpeg",
-    "./img/WhatsApp Image 2025-12-02 at 10.56.37 (1).jpeg",
-    "./img/WhatsApp Image 2025-12-02 at 10.56.38.jpeg",
-    "./img/WhatsApp Image 2025-12-02 at 10.56.38 (1).jpeg",
-    "./img/WhatsApp Image 2025-12-02 at 10.56.39 (1).jpeg",
-    "./img/WhatsApp Image 2025-12-02 at 10.56.39 (2).jpeg"
+    "/img/WhatsApp Image 2025-12-02 at 10.56.35.jpeg",
+    "/img/WhatsApp Image 2025-12-02 at 10.56.36 (1).jpeg",
+    "/img/WhatsApp Image 2025-12-02 at 10.56.36 (2).jpeg",
+    "/img/WhatsApp Image 2025-12-02 at 10.56.37 (1).jpeg",
+    "/img/WhatsApp Image 2025-12-02 at 10.56.38.jpeg",
+    "/img/WhatsApp Image 2025-12-02 at 10.56.38 (1).jpeg",
+    "/img/WhatsApp Image 2025-12-02 at 10.56.39 (1).jpeg",
+    "/img/WhatsApp Image 2025-12-02 at 10.56.39 (2).jpeg"
   ];
 
   return (
