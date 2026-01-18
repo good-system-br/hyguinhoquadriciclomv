@@ -6,6 +6,7 @@ import {
   Features, 
   TourPackages, 
   Gallery, 
+  ReviewsAndMap,
   ContactSection, 
   Footer,
   FloatingWhatsApp 
@@ -29,6 +30,7 @@ const App: React.FC = () => {
       <Features />
       <TourPackages id="tours" />
       <Gallery />
+      <ReviewsAndMap />
       <ContactSection />
       <Footer />
       <FloatingWhatsApp />

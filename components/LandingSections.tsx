@@ -362,6 +362,101 @@ export const Gallery: React.FC = () => {
   );
 };
 
+export const ReviewsAndMap: React.FC = () => {
+  const reviews = [
+    {
+      name: "Gustavo S.",
+      rating: 5,
+      text: "Passeio incrível e equipe muito atenciosa. Trilha segura e cheia de emoção!"
+    },
+    {
+      name: "Camila R.",
+      rating: 5,
+      text: "Adoramos o pôr do sol na fazenda. Quadriciclos novos e visual maravilhoso."
+    },
+    {
+      name: "Felipe M.",
+      rating: 5,
+      text: "Experiência top! Voltarei com a família. Reservar pelo WhatsApp foi rápido."
+    }
+  ];
+
+  return (
+    <section id="avaliacoes" className="py-20 bg-gradient-to-b from-gray-50 via-white to-gray-50">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-12">
+          <span className="inline-flex items-center gap-2 bg-orange-100 text-orange-700 font-bold text-xs md:text-sm uppercase px-5 py-2.5 rounded-full shadow-sm border border-orange-200">Localização e avaliações</span>
+          <h2 className="text-3xl md:text-4xl font-extrabold mt-4 mb-3 text-gray-900">Estamos te esperando aqui</h2>
+          <p className="text-gray-600 max-w-2xl mx-auto text-base md:text-lg">Veja onde ficamos e confira o que nossos clientes comentam sobre a experiência.</p>
+        </div>
+
+        <div className="grid lg:grid-cols-2 gap-10 items-stretch">
+          <div className="bg-white rounded-3xl shadow-xl border border-gray-100 overflow-hidden flex flex-col">
+            <div className="relative aspect-[4/3]">
+              <iframe
+                title="Mapa Hyguinho Quadriciclos"
+                src={`https://www.google.com/maps?q=${encodeURIComponent(COMPANY_NAME)}&output=embed`}
+                className="w-full h-full border-0"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                allowFullScreen
+              />
+              <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-4 py-2 rounded-full shadow flex items-center gap-2 text-sm font-semibold text-gray-700">
+                <span className="inline-flex h-2.5 w-2.5 rounded-full bg-green-500 animate-pulse"></span>
+                Aberto para reservas
+              </div>
+            </div>
+            <div className="p-6 flex items-center justify-between">
+              <div>
+                <p className="text-gray-500 text-sm">Endereço</p>
+                <p className="font-bold text-gray-900">Fazenda Adrenalina</p>
+              </div>
+              <div className="flex gap-3">
+                <a href={GOOGLE_MAPS_LINK} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-orange-600 text-white font-bold shadow hover:bg-orange-700 transition">Abrir no Maps</a>
+                <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-gray-900 text-white font-bold shadow hover:bg-black transition">Chamar no Whats</a>
+              </div>
+            </div>
+          </div>
+
+          <div className="bg-white rounded-3xl shadow-xl border border-gray-100 p-6 md:p-8">
+            <div className="flex items-center justify-between mb-6">
+              <div>
+                <p className="text-sm text-gray-500">Avaliações Google</p>
+                <p className="text-3xl font-extrabold text-gray-900 flex items-center gap-2">
+                  5.0
+                  <span className="text-yellow-400 text-xl">★★★★★</span>
+                </p>
+                <p className="text-xs text-gray-500">Baseado em clientes reais</p>
+              </div>
+              <a href={GOOGLE_BUSINESS_LINK} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-orange-200 text-orange-700 font-semibold hover:bg-orange-50 transition">
+                Ver todas
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" /></svg>
+              </a>
+            </div>
+
+            <div className="space-y-4">
+              {reviews.map((review, idx) => (
+                <div key={idx} className="p-5 border border-gray-100 rounded-2xl bg-gray-50/60 hover:border-orange-200 hover:bg-white transition">
+                  <div className="flex items-center justify-between mb-2">
+                    <div className="font-bold text-gray-900">{review.name}</div>
+                    <div className="text-yellow-400 text-sm">{'★'.repeat(review.rating)}</div>
+                  </div>
+                  <p className="text-gray-600 text-sm leading-relaxed">{review.text}</p>
+                </div>
+              ))}
+            </div>
+
+            <div className="mt-6 flex flex-col sm:flex-row gap-3">
+              <a href={GOOGLE_BUSINESS_LINK} target="_blank" rel="noopener noreferrer" className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-orange-600 text-white font-bold shadow hover:bg-orange-700 transition">Avaliar no Google</a>
+              <a href={GOOGLE_MAPS_LINK} target="_blank" rel="noopener noreferrer" className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-gray-900 text-white font-bold shadow hover:bg-black transition">Como chegar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
 export const ContactSection: React.FC = () => (
   <section id="contato" className="py-20 bg-gray-900 text-white">
     <div className="container mx-auto px-4">
