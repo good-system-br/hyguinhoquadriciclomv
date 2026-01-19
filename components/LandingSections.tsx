@@ -103,7 +103,7 @@ export const Hero: React.FC = () => (
         
         {/* Subtítulo com melhor legibilidade */}
         <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-12 max-w-4xl mx-auto font-light leading-relaxed text-gray-200 drop-shadow-lg">
-          Sinta a emoção de pilotar em meio à natureza na <span className="text-orange-300 font-bold">Fazenda Adrenalina</span>. <br className="hidden sm:block" />Passeios inesquecíveis para você e sua dupla.
+          Passeios de <span className="text-orange-300 font-bold">quadriciclo em Monte Verde</span> na <span className="text-orange-300 font-bold">Fazenda Adrenalina</span>. <br className="hidden sm:block" />Aventura inesquecível para você e sua dupla com total segurança.
         </p>
         
         {/* CTAs com melhor hierarquia visual */}
@@ -161,8 +161,8 @@ export const Features: React.FC = () => (
           <div className="bg-gradient-to-br from-orange-100 to-orange-50 w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-6 text-orange-600 group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-lg group-hover:shadow-orange-200">
             <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
           </div>
-          <h3 className="text-xl md:text-2xl font-bold mb-3 text-gray-900 group-hover:text-orange-600 transition-colors duration-300">Fazenda Adrenalina</h3>
-          <p className="text-gray-600 leading-relaxed">Local privilegiado com trilhas exclusivas e paisagens deslumbrantes para sua aventura.</p>
+          <h3 className="text-xl md:text-2xl font-bold mb-3 text-gray-900 group-hover:text-orange-600 transition-colors duration-300">Fazenda Adrenalina - Monte Verde</h3>
+          <p className="text-gray-600 leading-relaxed">Trilhas exclusivas em Monte Verde com paisagens deslumbrantes da Serra da Mantiqueira para sua aventura de quadriciclo.</p>
         </div>
         
         {/* Feature 2 */}
@@ -193,7 +193,7 @@ export const TourPackages: React.FC<{ id?: string }> = ({ id }) => {
       name: "Passeio Normal", 
       price: "160", 
       time: "40 - 60 min", 
-      desc: "Ideal para iniciantes e quem quer curtir a trilha com calma.",
+      desc: "Passeio ideal para iniciantes e quem quer curtir a trilha de quadriciclo em Monte Verde com calma.",
       img: "/img/WhatsApp Image 2025-12-02 at 10.56.35 (1).jpeg",
       features: ["Trilha guiada", "Equipamentos inclusos", "Fotos do passeio"]
     },
@@ -201,7 +201,7 @@ export const TourPackages: React.FC<{ id?: string }> = ({ id }) => {
       name: "Passeio Noturno", 
       price: "160", 
       time: "A combinar", 
-      desc: "Uma experiência mística sob o céu estrelado da fazenda.",
+      desc: "Aventura de quadriciclo noturna sob o céu estrelado da fazenda em Monte Verde.",
       img: "/img/WhatsApp Image 2025-12-02 at 10.56.38 (3).jpeg",
       features: ["Aventura noturna", "Céu estrelado", "Experiência única"]
     },
@@ -210,7 +210,7 @@ export const TourPackages: React.FC<{ id?: string }> = ({ id }) => {
       price: "300", 
       time: "1h a 1h 30min", 
       isPopular: true,
-      desc: "A vista mais incrível da região. Saída exclusiva às 17:00.",
+      desc: "Passeio de quadriciclo com a vista mais incrível de Monte Verde. Saída exclusiva às 17:00.",
       img: "/img/WhatsApp Image 2025-12-02 at 10.56.40.jpeg",
       features: ["Vista espetacular", "Melhor horário", "Fotos profissionais"]
     }
@@ -225,7 +225,7 @@ export const TourPackages: React.FC<{ id?: string }> = ({ id }) => {
             <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
             Nossos Pacotes
           </span>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-4 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 bg-clip-text text-transparent">Escolha Sua Aventura</h2>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-4 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 bg-clip-text text-transparent">Passeios de Quadriciclo em Monte Verde</h2>
           <p className="text-gray-600 max-w-2xl mx-auto text-base md:text-lg leading-relaxed">Valores referente ao quadriciclo completo (capacidade para 2 pessoas). <span className="font-semibold text-orange-600">Equipamentos de segurança inclusos.</span></p>
         </div>
         
