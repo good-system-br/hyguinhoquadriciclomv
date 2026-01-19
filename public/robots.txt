@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hyguinho-quadriciclos-mv.vercel.app/sitemap.xml
+Sitemap: https://www.hyguinhoquadriciclo.com.br/sitemap.xml
