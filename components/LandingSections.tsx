@@ -94,7 +94,7 @@ export const Hero: React.FC = () => (
         
         {/* Título principal com melhor hierarquia */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-extrabold mb-8 leading-tight">
-          <span className="block mb-2 drop-shadow-2xl">ADRENALINA SOB</span>
+          <span className="block mb-2 drop-shadow-2xl">ADRENALINA SOBRE</span>
           <span className="text-orange-500 relative inline-block drop-shadow-2xl">
             <span className="relative z-10 bg-gradient-to-r from-orange-400 via-orange-500 to-orange-600 bg-clip-text text-transparent">QUATRO RODAS</span>
             <span className="absolute -bottom-2 left-0 right-0 h-3 md:h-4 bg-gradient-to-r from-orange-600 to-orange-500 opacity-50 blur-sm"></span>
