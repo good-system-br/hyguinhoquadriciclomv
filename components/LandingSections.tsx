@@ -23,7 +23,7 @@ export const Navigation: React.FC<{ scrolled: boolean }> = ({ scrolled }) => {
         <div className="hidden lg:flex items-center space-x-8 font-semibold text-base">
           <a href="#" className={`relative hover:text-orange-500 transition-colors duration-300 hover:after:w-full after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-orange-500 after:transition-all after:duration-300 ${scrolled ? 'text-gray-800' : 'text-white'}`}>Início</a>
           <a href="#tours" className={`relative hover:text-orange-500 transition-colors duration-300 hover:after:w-full after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-orange-500 after:transition-all after:duration-300 ${scrolled ? 'text-gray-800' : 'text-white'}`}>Passeios</a>
-          <a href="#galeria" className={`relative hover:text-orange-500 transition-colors duration-300 hover:after:w-full after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-orange-500 after:transition-all after:duration-300 ${scrolled ? 'text-gray-800' : 'text-white'}`}>Galeria</a>
+          <a href="#fotos" className={`relative hover:text-orange-500 transition-colors duration-300 hover:after:w-full after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-orange-500 after:transition-all after:duration-300 ${scrolled ? 'text-gray-800' : 'text-white'}`}>Fotos</a>
           <a href="#contato" className={`relative hover:text-orange-500 transition-colors duration-300 hover:after:w-full after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-orange-500 after:transition-all after:duration-300 ${scrolled ? 'text-gray-800' : 'text-white'}`}>Contato</a>
         </div>
         
@@ -58,7 +58,7 @@ export const Navigation: React.FC<{ scrolled: boolean }> = ({ scrolled }) => {
           <div className="container mx-auto px-4 py-6 flex flex-col space-y-2">
             <a href="#" onClick={() => setMobileMenuOpen(false)} className="text-gray-900 hover:text-white hover:bg-orange-600 font-bold text-lg transition-all duration-300 py-4 px-5 rounded-xl shadow-sm hover:shadow-md">Início</a>
             <a href="#tours" onClick={() => setMobileMenuOpen(false)} className="text-gray-900 hover:text-white hover:bg-orange-600 font-bold text-lg transition-all duration-300 py-4 px-5 rounded-xl shadow-sm hover:shadow-md">Passeios</a>
-            <a href="#galeria" onClick={() => setMobileMenuOpen(false)} className="text-gray-900 hover:text-white hover:bg-orange-600 font-bold text-lg transition-all duration-300 py-4 px-5 rounded-xl shadow-sm hover:shadow-md">Galeria</a>
+            <a href="#fotos" onClick={() => setMobileMenuOpen(false)} className="text-gray-900 hover:text-white hover:bg-orange-600 font-bold text-lg transition-all duration-300 py-4 px-5 rounded-xl shadow-sm hover:shadow-md">Fotos</a>
             <a href="#contato" onClick={() => setMobileMenuOpen(false)} className="text-gray-900 hover:text-white hover:bg-orange-600 font-bold text-lg transition-all duration-300 py-4 px-5 rounded-xl shadow-sm hover:shadow-md">Contato</a>
             <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="bg-gradient-to-r from-orange-600 to-orange-700 hover:from-orange-700 hover:to-orange-800 text-white px-6 py-4 rounded-xl font-extrabold text-lg text-center transition-all duration-300 shadow-xl hover:shadow-2xl mt-3 flex items-center justify-center gap-2">
               <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766 0-3.18-2.587-5.771-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.512-2.96-2.626-.088-.113-.716-.953-.716-1.819 0-.866.454-1.292.614-1.463.16-.171.352-.214.47-.214.117 0 .235.001.337.006.113.005.242-.043.379.285.144.343.491 1.196.534 1.282.043.085.071.184.014.298-.057.114-.085.185-.171.285-.085.1-.184.223-.263.303-.092.096-.188.201-.081.385.107.184.476.786 1.021 1.272.632.557 1.166.731 1.352.824.187.093.298.077.406-.051.107-.127.462-.538.586-.719.124-.181.248-.153.419-.09.171.063 1.082.511 1.268.604.187.093.311.14.357.218.046.079.046.457-.098.862z"/></svg>
@@ -194,7 +194,7 @@ export const TourPackages: React.FC<{ id?: string }> = ({ id }) => {
       price: "160", 
       time: "40 - 60 min", 
       desc: "Passeio ideal para iniciantes e quem quer curtir a trilha de quadriciclo em Monte Verde com calma.",
-      img: "/img/WhatsApp Image 2025-12-02 at 10.56.35 (1).jpeg",
+      img: "/img/passeio-quadriciclo-monte-verde-01.jpeg",
       features: ["Trilha guiada", "Equipamentos inclusos", "Fotos do passeio"]
     },
     { 
@@ -202,7 +202,7 @@ export const TourPackages: React.FC<{ id?: string }> = ({ id }) => {
       price: "160", 
       time: "A combinar", 
       desc: "Aventura de quadriciclo noturna sob o céu estrelado da fazenda em Monte Verde.",
-      img: "/img/WhatsApp Image 2025-12-02 at 10.56.38 (3).jpeg",
+      img: "/img/passeio-quadriciclo-monte-verde-12.jpeg",
       features: ["Aventura noturna", "Céu estrelado", "Experiência única"]
     },
     { 
@@ -211,7 +211,7 @@ export const TourPackages: React.FC<{ id?: string }> = ({ id }) => {
       time: "1h a 1h 30min", 
       isPopular: true,
       desc: "Passeio de quadriciclo com a vista mais incrível de Monte Verde. Saída exclusiva às 17:00.",
-      img: "/img/WhatsApp Image 2025-12-02 at 10.56.40.jpeg",
+      img: "/img/passeio-quadriciclo-monte-verde-19.jpeg",
       features: ["Vista espetacular", "Melhor horário", "Fotos profissionais"]
     }
   ];
@@ -310,32 +310,64 @@ export const TourPackages: React.FC<{ id?: string }> = ({ id }) => {
 };
 
 export const Gallery: React.FC = () => {
+  const [activeTab, setActiveTab] = useState<'todas' | 'aventura' | 'por-do-sol'>('todas');
+
+  const galleryTabs = [
+    { id: 'todas', label: 'Todas' },
+    { id: 'aventura', label: 'Aventura' },
+    { id: 'por-do-sol', label: 'Pôr do Sol' }
+  ] as const;
+
   const galleryImages = [
-    "/img/WhatsApp Image 2025-12-02 at 10.56.35.jpeg",
-    "/img/WhatsApp Image 2025-12-02 at 10.56.36 (1).jpeg",
-    "/img/WhatsApp Image 2025-12-02 at 10.56.36 (2).jpeg",
-    "/img/WhatsApp Image 2025-12-02 at 10.56.37 (1).jpeg",
-    "/img/WhatsApp Image 2025-12-02 at 10.56.38.jpeg",
-    "/img/WhatsApp Image 2025-12-02 at 10.56.38 (1).jpeg",
-    "/img/WhatsApp Image 2025-12-02 at 10.56.39 (1).jpeg",
-    "/img/WhatsApp Image 2025-12-02 at 10.56.39 (2).jpeg"
-  ];
+    { src: "/img/passeio-quadriciclo-monte-verde-02.jpeg", category: 'aventura', alt: 'Passeio de quadriciclo em trilha de Monte Verde' },
+    { src: "/img/passeio-quadriciclo-monte-verde-03.jpeg", category: 'aventura', alt: 'Aventura de quadriciclo na Fazenda Adrenalina' },
+    { src: "/img/passeio-quadriciclo-monte-verde-04.jpeg", category: 'aventura', alt: 'Trilha guiada de quadriciclo em Monte Verde MG' },
+    { src: "/img/passeio-quadriciclo-monte-verde-05.jpeg", category: 'aventura', alt: 'Casal em passeio de quadriciclo em Monte Verde' },
+    { src: "/img/passeio-quadriciclo-monte-verde-07.jpeg", category: 'aventura', alt: 'Quadriciclo em trilha com paisagem da Mantiqueira' },
+    { src: "/img/passeio-quadriciclo-monte-verde-10.jpeg", category: 'aventura', alt: 'Experiência de aventura com quadriciclo para duas pessoas' },
+    { src: "/img/passeio-quadriciclo-monte-verde-08.jpeg", category: 'por-do-sol', alt: 'Passeio de quadriciclo no fim de tarde em Monte Verde' },
+    { src: "/img/passeio-quadriciclo-monte-verde-14.jpeg", category: 'por-do-sol', alt: 'Vista panorâmica no passeio de pôr do sol em Monte Verde' },
+    { src: "/img/passeio-quadriciclo-monte-verde-15.jpeg", category: 'por-do-sol', alt: 'Aventura de quadriciclo com céu dourado ao entardecer' },
+    { src: "/img/passeio-quadriciclo-monte-verde-16.jpeg", category: 'por-do-sol', alt: 'Passeio de quadriciclo romântico no pôr do sol' },
+    { src: "/img/passeio-quadriciclo-monte-verde-18.jpeg", category: 'por-do-sol', alt: 'Fotos profissionais de quadriciclo no fim do dia' },
+    { src: "/img/passeio-quadriciclo-monte-verde-11.jpeg", category: 'por-do-sol', alt: 'Pôr do sol na Fazenda Adrenalina em Monte Verde' }
+  ] as const;
+
+  const filteredImages = activeTab === 'todas'
+    ? galleryImages
+    : galleryImages.filter((image) => image.category === activeTab);
 
   return (
-    <section id="galeria" className="py-20 bg-gradient-to-b from-white to-gray-50">
+    <section id="fotos" className="py-20 bg-gradient-to-b from-white to-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <span className="inline-block bg-orange-100 text-orange-600 font-bold text-sm uppercase px-4 py-2 rounded-full mb-4">Nossa Galeria</span>
-          <h2 className="text-4xl md:text-5xl font-extrabold mb-4">Fotos dos Nossos Passeios</h2>
-          <p className="text-gray-600 text-lg max-w-2xl mx-auto">Momentos reais capturados nas trilhas da Fazenda Adrenalina. Venha fazer parte dessa aventura!</p>
+          <span className="inline-block bg-orange-100 text-orange-600 font-bold text-sm uppercase px-4 py-2 rounded-full mb-4">Fotos Profissionais</span>
+          <h2 className="text-4xl md:text-5xl font-extrabold mb-4">Galeria dos Passeios</h2>
+          <p className="text-gray-600 text-lg max-w-2xl mx-auto">Selecione a aba para ver as melhores fotos da experiência de quadriciclo em Monte Verde.</p>
         </div>
+
+        <div className="flex flex-wrap justify-center gap-3 mb-10">
+          {galleryTabs.map((tab) => (
+            <button
+              key={tab.id}
+              onClick={() => setActiveTab(tab.id)}
+              className={`px-6 py-2.5 rounded-full font-bold text-sm transition-all duration-300 border ${activeTab === tab.id
+                ? 'bg-orange-600 text-white border-orange-600 shadow-lg'
+                : 'bg-white text-gray-700 border-gray-200 hover:border-orange-300 hover:text-orange-600'}`}
+            >
+              {tab.label}
+            </button>
+          ))}
+        </div>
+
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-          {galleryImages.map((img, n) => (
+          {filteredImages.map((image, n) => (
             <div key={n} className="group relative overflow-hidden rounded-2xl h-72 shadow-xl hover:shadow-2xl transition-all duration-300">
               <img 
-                src={img} 
-                alt={`Passeio de quadriciclo ${n + 1}`} 
+                src={image.src}
+                alt={image.alt}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-125" 
+                loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-all duration-300 flex flex-col items-center justify-end p-6">
                 <span className="text-white font-bold text-lg mb-2">#HyguinhoMv</span>
@@ -555,7 +587,7 @@ export const Footer: React.FC = () => (
           <ul className="space-y-2 text-gray-400">
             <li><a href="#" className="hover:text-orange-500 transition">Início</a></li>
             <li><a href="#tours" className="hover:text-orange-500 transition">Nossos Passeios</a></li>
-            <li><a href="#galeria" className="hover:text-orange-500 transition">Galeria</a></li>
+            <li><a href="#fotos" className="hover:text-orange-500 transition">Fotos</a></li>
             <li><a href="#contato" className="hover:text-orange-500 transition">Contato</a></li>
           </ul>
         </div>
