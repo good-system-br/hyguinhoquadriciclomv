@@ -319,11 +319,11 @@ export const Gallery: React.FC = () => {
   ] as const;
 
   const galleryImages = [
-    { src: "/img/passeio-quadriciclo-monte-verde-02.jpeg", category: 'aventura', alt: 'Passeio de quadriciclo em trilha de Monte Verde' },
-    { src: "/img/passeio-quadriciclo-monte-verde-03.jpeg", category: 'aventura', alt: 'Aventura de quadriciclo na Fazenda Adrenalina' },
-    { src: "/img/passeio-quadriciclo-monte-verde-04.jpeg", category: 'aventura', alt: 'Trilha guiada de quadriciclo em Monte Verde MG' },
-    { src: "/img/passeio-quadriciclo-monte-verde-05.jpeg", category: 'aventura', alt: 'Casal em passeio de quadriciclo em Monte Verde' },
-    { src: "/img/passeio-quadriciclo-monte-verde-07.jpeg", category: 'aventura', alt: 'Quadriciclo em trilha com paisagem da Mantiqueira' },
+    { src: "/img/espontanea.jpg", category: 'aventura', alt: 'Passeio de quadriciclo em trilha de Monte Verde' },
+    { src: "/img/fogueira.jpg", category: 'aventura', alt: 'Aventura de quadriciclo na Fazenda Adrenalina' },
+    { src: "/img/maosolpessoas.jpg", category: 'por-do-sol', alt: 'Mão de Deus com pessoas ao pôr do sol' },
+    { src: "/img/maoesol.jpg", category: 'por-do-sol', alt: 'Quadriciclo em trilha com paisagem da Mantiqueira' },
+    { src: "/img/maofimdetarde.jpg", category: 'por-do-sol', alt: 'Fim de tarde na Mão de Deus' },
     { src: "/img/passeio-quadriciclo-monte-verde-10.jpeg", category: 'aventura', alt: 'Experiência de aventura com quadriciclo para duas pessoas' },
     { src: "/img/passeio-quadriciclo-monte-verde-08.jpeg", category: 'por-do-sol', alt: 'Passeio de quadriciclo no fim de tarde em Monte Verde' },
     { src: "/img/passeio-quadriciclo-monte-verde-14.jpeg", category: 'por-do-sol', alt: 'Vista panorâmica no passeio de pôr do sol em Monte Verde' },
