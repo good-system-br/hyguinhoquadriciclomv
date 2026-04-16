@@ -1,4 +1,16 @@
 User-agent: *
 Allow: /
+Disallow: /admin
+Disallow: /private
+Disallow: /*.json$
 
-Sitemap: https://www.hyguinhoquadriciclo.com.br/sitemap.xml
+# Prevent crawling duplicate content
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot-SA
+Crawl-delay: 10
+
+# Specify sitemaps
+Sitemap: https://hyguinho-quadriciclos-mv.vercel.app/sitemap.xml
+Sitemap: https://hyguinho-quadriciclos-mv.vercel.app/public/schema.json
