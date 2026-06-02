@@ -10,7 +10,12 @@
       "Bash(git add *)",
       "Bash(git reset *)",
       "Bash(git commit -m ' *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(npx vercel *)",
+      "PowerShell(Get-ChildItem *)",
+      "Bash(curl -s https://api.vercel.com/v9/projects/hyguinhoquadriciclo?teamId=team_W2Ih9tK6i5TLY0HpA6L5Y0zD -H 'Authorization: Bearer vca_2OL8Sn3i2Q6elPzGZaqJGsk7YAGSjTjOfZYwQyeDrVBLI2rm1B3hhlPS')",
+      "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\('id:', d.get\\('id'\\)\\); s=d.get\\('buildCommand',''\\); o=d.get\\('outputDirectory',''\\); print\\('buildCommand:', s\\); print\\('outputDirectory:', o\\)\")",
+      "Bash(curl *)"
     ]
   }
 }
