@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { WHATSAPP_LINK, GOOGLE_MAPS_LINK, INSTAGRAM_LINK, PHONE, EMAIL } from '@/lib/constants';
 
 const pages = [
@@ -18,15 +19,14 @@ export function Footer() {
         <div className="grid md:grid-cols-4 gap-10 mb-12">
           {/* Brand */}
           <div className="md:col-span-2">
-            <div className="flex items-center gap-2.5 mb-5">
-              <div className="w-9 h-9 bg-moss rounded-xl flex items-center justify-center">
-                <svg className="w-5 h-5 text-forest-950" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
-              </div>
-              <span className="font-display font-black text-xl uppercase tracking-tight text-white">
-                Hyguinho<span className="text-moss">Mv</span>
-              </span>
+            <div className="mb-5">
+              <Image
+                src="/img/logo.png"
+                alt="Hyguinho Quadriciclos MV"
+                width={80}
+                height={80}
+                className="h-20 w-20 rounded-2xl object-cover"
+              />
             </div>
             <p className="text-white/50 text-sm leading-relaxed mb-6 max-w-sm">
               Aventuras inesquecíveis de quadriciclo na Fazenda Adrenalina, em Monte Verde — Minas Gerais. Segurança, diversão e natureza garantidas.
