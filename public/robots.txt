@@ -1,4 +1,13 @@
 User-agent: *
 Allow: /
+Disallow: /admin
+Disallow: /private
+Disallow: /*.json$
+
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot-SA
+Crawl-delay: 10
 
 Sitemap: https://hyguinho-quadriciclos-mv.vercel.app/sitemap.xml

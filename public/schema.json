@@ -1,0 +1,194 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://hyguinho-quadriciclos-mv.vercel.app/#organization",
+      "name": "Hyguinho Quadriciclos MV",
+      "alternateName": "Hyguinho Quadriciclos Monte Verde",
+      "description": "Passeios de quadriciclo em Monte Verde MG na Fazenda Adrenalina. Aventura, segurança e diversão para 2 pessoas.",
+      "url": "https://hyguinho-quadriciclos-mv.vercel.app/",
+      "telephone": "+5535998793419",
+      "email": "contato@hyguinhoquadriciclo.com.br",
+      "image": "https://hyguinho-quadriciclos-mv.vercel.app/img/maoesol.jpg",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://hyguinho-quadriciclos-mv.vercel.app/logo.png",
+        "width": 280,
+        "height": 60
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Fazenda Adrenalina, Monte Verde",
+        "addressLocality": "Monte Verde",
+        "addressRegion": "MG",
+        "postalCode": "37461-000",
+        "addressCountry": "BR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "-22.864722",
+        "longitude": "-46.029444"
+      },
+      "sameAs": [
+        "https://www.google.com/maps/place/Monte+Verde,+MG",
+        "https://wa.me/5535998793419"
+      ],
+      "priceRange": "R$ 160 - R$ 400",
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Monte Verde"
+        },
+        {
+          "@type": "City",
+          "name": "Minas Gerais"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "150"
+      }
+    },
+    {
+      "@type": "TouristAttraction",
+      "@id": "https://hyguinho-quadriciclos-mv.vercel.app/#tour-activity",
+      "name": "Passeio de Quadriciclo em Monte Verde",
+      "description": "Aventura de quadriciclo em trilhas exclusivas da Fazenda Adrenalina, com paisagens deslumbrantes da Serra da Mantiqueira",
+      "image": [
+        "https://hyguinho-quadriciclos-mv.vercel.app/img/maoesol.jpg",
+        "https://hyguinho-quadriciclos-mv.vercel.app/img/maosolpessoas.jpg",
+        "https://hyguinhoquadriciclos-mv.vercel.app/img/fogueira.jpg"
+      ],
+      "url": "https://hyguinho-quadriciclos-mv.vercel.app/",
+      "potentialAction": {
+        "@type": "ReserveAction",
+        "name": "Reservar Passeio",
+        "url": "https://wa.me/5535998793419"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://hyguinho-quadriciclos-mv.vercel.app/#service-1",
+      "name": "Passeio Normal de Quadriciclo",
+      "description": "Passeio ideal para iniciantes de 40-60 minutos em trilhas de Monte Verde",
+      "serviceType": "Tourism & Recreation",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://hyguinho-quadriciclos-mv.vercel.app/#organization"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Monte Verde",
+        "addressRegion": "MG"
+      },
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "BRL",
+        "price": "160"
+      },
+      "duration": "PT1H"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://hyguinho-quadriciclos-mv.vercel.app/#service-2",
+      "name": "Passeio com Parada no Pico",
+      "description": "Passeio de 1.5 horas com parada no pico para fotos profissionais",
+      "serviceType": "Tourism & Recreation",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://hyguinho-quadriciclos-mv.vercel.app/#organization"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Monte Verde",
+        "addressRegion": "MG"
+      },
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "BRL",
+        "price": "250"
+      },
+      "duration": "PT1H30M"
+    },
+    {
+      "@type": "Service",
+      "@id": "https://hyguinho-quadriciclos-mv.vercel.app/#service-3",
+      "name": "Passeio Pôr do Sol",
+      "description": "Experiência exclusiva ao entardecer com fogueira e lanches na Fazenda Adrenalina",
+      "serviceType": "Tourism & Recreation",
+      "provider": {
+        "@type": "LocalBusiness",
+        "@id": "https://hyguinho-quadriciclos-mv.vercel.app/#organization"
+      },
+      "areaServed": {
+        "@type": "City",
+        "name": "Monte Verde",
+        "addressRegion": "MG"
+      },
+      "priceSpecification": {
+        "@type": "PriceSpecification",
+        "priceCurrency": "BRL",
+        "price": "400"
+      },
+      "duration": "PT2H30M"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://hyguinho-quadriciclos-mv.vercel.app/#website",
+      "url": "https://hyguinho-quadriciclos-mv.vercel.app/",
+      "name": "Hyguinho Quadriciclos Monte Verde",
+      "description": "Site oficial de passeios de quadriciclo em Monte Verde MG",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://hyguinho-quadriciclos-mv.vercel.app/?s={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://hyguinho-quadriciclos-mv.vercel.app/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Passeios",
+          "item": "https://hyguinho-quadriciclos-mv.vercel.app/#tours"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Galeria",
+          "item": "https://hyguinho-quadriciclos-mv.vercel.app/#fotos"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Contato",
+          "item": "https://hyguinho-quadriciclos-mv.vercel.app/#contato"
+        }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://hyguinho-quadriciclos-mv.vercel.app/#org",
+      "name": "Hyguinho Quadriciclos",
+      "url": "https://hyguinho-quadriciclos-mv.vercel.app/",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Support",
+        "telephone": "+5535998793419",
+        "availableLanguage": ["pt-BR"]
+      }
+    }
+  ]
+}
