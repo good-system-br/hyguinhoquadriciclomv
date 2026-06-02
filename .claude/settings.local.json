@@ -5,7 +5,12 @@
       "Bash(Select-Object -Property FullName)",
       "Bash(Sort-Object FullName)",
       "Bash(npm run *)",
-      "PowerShell(Rename-Item *)"
+      "PowerShell(Rename-Item *)",
+      "Bash(git rm *)",
+      "Bash(git add *)",
+      "Bash(git reset *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)"
     ]
   }
 }
