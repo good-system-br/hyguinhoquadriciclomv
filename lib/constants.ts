@@ -1,0 +1,11 @@
+export const PHONE = '(35) 99879-3419';
+export const PHONE_RAW = '+5535998793419';
+export const EMAIL = 'hygormeendes98@gmail.com';
+export const WHATSAPP_MESSAGE = 'Olá tudo bem, vim pelo site!';
+export const WHATSAPP_LINK = `https://wa.me/5535998793419?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`;
+export const GOOGLE_MAPS_LINK = 'https://maps.app.goo.gl/ErhUFfdAnUC2DiJv8';
+export const GOOGLE_BUSINESS_LINK = 'https://g.page/r/CRfCXnY8kz4GEBM/review';
+export const INSTAGRAM_LINK = 'https://www.instagram.com/hyguinho_quadriciclos_mv/';
+export const FACEBOOK_LINK = 'https://facebook.com';
+export const COMPANY_NAME = 'Hyguinho Quadriciclos';
+export const SITE_URL = 'https://hyguinho-quadriciclos-mv.vercel.app';
