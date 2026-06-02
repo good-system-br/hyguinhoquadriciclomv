@@ -36,8 +36,8 @@ export function VideoHero() {
       </video>
 
       {/* Layered overlays */}
-      <div className="absolute inset-0 bg-gradient-to-b from-forest-950/70 via-forest-950/30 to-forest-950/85" />
-      <div className="absolute inset-0 bg-gradient-to-r from-forest-950/30 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-b from-forest-950/40 via-forest-950/10 to-forest-950/70" />
+      <div className="absolute inset-0 bg-gradient-to-r from-forest-950/15 to-transparent" />
 
       {/* ── MOBILE: apenas texto 3D ── */}
       <div className="sm:hidden relative z-10 text-center text-white px-4 flex flex-col items-center gap-3">
