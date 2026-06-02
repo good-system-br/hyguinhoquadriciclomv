@@ -6,7 +6,7 @@ const previewImages = [
   { src: '/img/passeio-quadriciclo-monte-verde-05.jpeg', alt: 'Aventura de quadriciclo em Monte Verde', span: 'md:col-span-2 md:row-span-2' },
   { src: '/img/passeio-quadriciclo-monte-verde-14.jpeg', alt: 'Pôr do Sol na Fazenda Adrenalina', span: '' },
   { src: '/img/passeio-quadriciclo-monte-verde-15.jpeg', alt: 'Vista panorâmica Monte Verde', span: '' },
-  { src: '/img/passeio-quadriciclo-monte-verde-07.jpeg', alt: 'Trilha exclusiva de quadriciclo', span: '' },
+  { src: '/img/maosolpessoas.jpg', alt: 'Pessoas no passeio pôr do sol de quadriciclo Monte Verde', span: '' },
   { src: '/img/passeio-quadriciclo-monte-verde-08.jpeg', alt: 'Passeio pôr do sol Monte Verde', span: '' },
 ];
 
