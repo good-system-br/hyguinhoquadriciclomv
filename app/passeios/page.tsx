@@ -4,16 +4,68 @@ import { TourCard } from '@/components/shared/TourCard';
 import { SectionHeader } from '@/components/shared/SectionHeader';
 import { AnimateOnScroll } from '@/components/shared/AnimateOnScroll';
 import { CTABanner } from '@/components/home/CTABanner';
-import { WHATSAPP_LINK } from '@/lib/constants';
+import { WHATSAPP_LINK, SITE_URL } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'Passeios de Quadriciclo',
-  description: 'Conheça nossos passeios de quadriciclo em Monte Verde: Normal, Noturno e Pôr do Sol. Trilhas exclusivas na Fazenda Adrenalina a partir de R$160.',
+  title: 'Passeios de Quadriciclo em Monte Verde MG',
+  description:
+    'Conheça os passeios de quadriciclo em Monte Verde MG: Normal (R$160), Noturno (R$160) e Pôr do Sol (R$300). Trilhas na Fazenda Adrenalina, guia especializado, equipamentos inclusos.',
+  alternates: { canonical: `${SITE_URL}/passeios` },
+  openGraph: {
+    title: 'Passeios de Quadriciclo em Monte Verde MG | Hyguinho Quadriciclos',
+    description:
+      'Passeio Normal, Noturno e Pôr do Sol. Trilhas exclusivas na Fazenda Adrenalina para 2 pessoas a partir de R$160.',
+    images: [{ url: '/img/passeio-quadriciclo-monte-verde-19.jpeg', width: 1200, height: 630 }],
+  },
 };
 
 export default function PasseiosPage() {
+  const toursSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: 'Passeios de Quadriciclo em Monte Verde MG',
+    description: 'Trilhas exclusivas de quadriciclo na Fazenda Adrenalina, Monte Verde MG.',
+    url: `${SITE_URL}/passeios`,
+    itemListElement: tours.map((tour, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      item: {
+        '@type': 'TouristTrip',
+        name: `${tour.name} — Quadriciclo Monte Verde MG`,
+        description: tour.longDescription,
+        image: `${SITE_URL}${tour.image}`,
+        url: `${SITE_URL}/passeios`,
+        touristType: 'Aventura',
+        itinerary: {
+          '@type': 'ItemList',
+          name: `Roteiro — ${tour.name}`,
+          itemListElement: tour.highlights.map((h, i) => ({
+            '@type': 'ListItem',
+            position: i + 1,
+            name: h,
+          })),
+        },
+        offers: {
+          '@type': 'Offer',
+          price: tour.price,
+          priceCurrency: 'BRL',
+          availability: 'https://schema.org/InStock',
+          seller: {
+            '@type': 'LocalBusiness',
+            name: 'Hyguinho Quadriciclos Monte Verde',
+            telephone: '+5535998793419',
+          },
+        },
+      },
+    })),
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(toursSchema) }}
+      />
       {/* Hero */}
       <section className="relative pt-40 pb-20 bg-forest-950 overflow-hidden">
         <div className="absolute inset-0">

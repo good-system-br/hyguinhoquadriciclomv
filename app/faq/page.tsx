@@ -2,16 +2,35 @@ import type { Metadata } from 'next';
 import { faqItems } from '@/lib/data/faq';
 import { FAQAccordion } from '@/components/shared/FAQAccordion';
 import { AnimateOnScroll } from '@/components/shared/AnimateOnScroll';
-import { WHATSAPP_LINK } from '@/lib/constants';
+import { WHATSAPP_LINK, SITE_URL } from '@/lib/constants';
 
 export const metadata: Metadata = {
   title: 'Perguntas Frequentes',
-  description: 'Tire suas dúvidas sobre os passeios de quadriciclo em Monte Verde. CNH necessária? Crianças podem participar? Responda tudo aqui.',
+  description:
+    'Tire suas dúvidas sobre os passeios de quadriciclo em Monte Verde MG. Precisa de CNH? Crianças podem ir? Como reservar? Respostas completas aqui.',
+  alternates: { canonical: `${SITE_URL}/faq` },
 };
 
 export default function FAQPage() {
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqItems.map((item) => ({
+      '@type': 'Question',
+      name: item.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: item.answer,
+      },
+    })),
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       {/* Header */}
       <section className="pt-36 pb-16 bg-forest-950">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">

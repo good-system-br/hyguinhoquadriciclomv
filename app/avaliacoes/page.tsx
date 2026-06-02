@@ -2,16 +2,47 @@ import type { Metadata } from 'next';
 import { reviews } from '@/lib/data/reviews';
 import { ReviewCard } from '@/components/shared/ReviewCard';
 import { AnimateOnScroll } from '@/components/shared/AnimateOnScroll';
-import { GOOGLE_BUSINESS_LINK, WHATSAPP_LINK } from '@/lib/constants';
+import { GOOGLE_BUSINESS_LINK, WHATSAPP_LINK, SITE_URL } from '@/lib/constants';
 
 export const metadata: Metadata = {
-  title: 'Avaliações',
-  description: 'Veja o que nossos clientes dizem sobre os passeios de quadriciclo do Hyguinho em Monte Verde. Nota 5.0 no Google.',
+  title: 'Avaliações e Depoimentos',
+  description:
+    'Clientes de São Paulo, BH e Rio avaliaram 5 estrelas os passeios de quadriciclo do Hyguinho em Monte Verde MG. Leia os depoimentos reais e reserve o seu!',
+  alternates: { canonical: `${SITE_URL}/avaliacoes` },
+  openGraph: {
+    title: 'Avaliações 5★ — Passeio de Quadriciclo Monte Verde MG',
+    description: 'Mais de 48 avaliações 5 estrelas no Google. Veja o que os clientes dizem sobre os passeios de quadriciclo na Fazenda Adrenalina em Monte Verde.',
+    images: [{ url: '/img/passeio-quadriciclo-monte-verde-01.jpeg', width: 1200, height: 630 }],
+  },
 };
 
 export default function AvaliacoesPage() {
+  const reviewsSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    name: 'Hyguinho Quadriciclos Monte Verde',
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '5',
+      bestRating: '5',
+      worstRating: '1',
+      ratingCount: String(reviews.length + 42),
+    },
+    review: reviews.map((r) => ({
+      '@type': 'Review',
+      author: { '@type': 'Person', name: r.name },
+      reviewRating: { '@type': 'Rating', ratingValue: String(r.rating), bestRating: '5' },
+      reviewBody: r.text,
+      datePublished: r.date,
+    })),
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewsSchema) }}
+      />
       {/* Header */}
       <section className="pt-36 pb-16 bg-forest-950">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
