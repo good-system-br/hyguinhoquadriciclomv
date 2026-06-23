@@ -9,7 +9,7 @@ import { WHATSAPP_LINK, SITE_URL } from '@/lib/constants';
 export const metadata: Metadata = {
   title: 'Passeios de Quadriciclo em Monte Verde MG',
   description:
-    'Conheça os passeios de quadriciclo em Monte Verde MG: Normal (R$160), Noturno (R$160) e Pôr do Sol (R$300). Trilhas na Fazenda Adrenalina, guia especializado, equipamentos inclusos.',
+    'Conheça os passeios de quadriciclo em Monte Verde MG: Normal, Noturno e Pôr do Sol . Trilhas na Fazenda Adrenalina, guia especializado, equipamentos inclusos.',
   alternates: { canonical: `${SITE_URL}/passeios` },
   openGraph: {
     title: 'Passeios de Quadriciclo em Monte Verde MG | Hyguinho Quadriciclos',

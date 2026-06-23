@@ -75,7 +75,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               url: `${SITE_URL}/`,
               telephone: '+5535998793419',
               email: 'hygormeendes98@gmail.com',
-              priceRange: 'R$160 - R$300',
+
               currenciesAccepted: 'BRL',
               paymentAccepted: 'Dinheiro, PIX, Cartão de Crédito',
               address: {
