@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     title: 'Passeios de Quadriciclo em Monte Verde MG | Hyguinho Quadriciclos',
     description:
       'Passeio Normal, Noturno e Pôr do Sol. Trilhas exclusivas na Fazenda Adrenalina para 2 pessoas a partir de R$160.',
-    images: [{ url: '/img/passeio-quadriciclo-monte-verde-19.jpeg', width: 1200, height: 630 }],
+    images: [{ url: '/img/passeio-quadriciclo-monte-verde-10.jpeg', width: 1200, height: 630 }],
   },
 };
 
