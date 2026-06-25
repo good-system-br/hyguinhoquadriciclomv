@@ -207,7 +207,7 @@ export const TourPackages: React.FC<{ id?: string }> = ({ id }) => {
     },
     { 
       name: "Passeio Pôr do Sol", 
-      price: "verificar disponibilidade", 
+      price: "360", 
       time: "1h a 1h 30min", 
       isPopular: true,
       desc: "Passeio de quadriciclo com a vista mais incrível de Monte Verde. Saída exclusiva às 17:00.",
