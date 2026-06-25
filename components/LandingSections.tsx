@@ -194,7 +194,7 @@ export const TourPackages: React.FC<{ id?: string }> = ({ id }) => {
       price: "160", 
       time: "40 - 60 min", 
       desc: "Passeio ideal para iniciantes e quem quer curtir a trilha de quadriciclo em Monte Verde com calma.",
-      img: "/img/passeio-quadriciclo-monte-verde-01.jpeg",
+      img: "/img/passeio-quadriciclo-monte-verde-10.jpeg",
       features: ["Trilha guiada", "Equipamentos inclusos", "Fotos do passeio"]
     },
     { 
@@ -211,7 +211,7 @@ export const TourPackages: React.FC<{ id?: string }> = ({ id }) => {
       time: "1h a 1h 30min", 
       isPopular: true,
       desc: "Passeio de quadriciclo com a vista mais incrível de Monte Verde. Saída exclusiva às 17:00.",
-      img: "/img/passeio-quadriciclo-monte-verde-19.jpeg",
+      img: "/img/passeio-quadriciclo-monte-verde-01.jpeg",
       features: ["Vista espetacular", "Melhor horário", "Fotos profissionais"]
     }
   ];
