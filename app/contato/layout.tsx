@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: 'Contato e Reservas',
   description:
     'Entre em contato com o Hyguinho Quadriciclos em Monte Verde MG. Reserve seu passeio de quadriciclo pelo WhatsApp, veja nossa localização na Fazenda Adrenalina.',
-  alternates: { canonical: 'https://hyguinho-quadriciclos-mv.vercel.app/contato' },
+  alternates: { canonical: 'https://www.hyguinhoquadriciclo.com.br/contato' },
   openGraph: {
     title: 'Contato e Reservas — Hyguinho Quadriciclos Monte Verde',
     description:

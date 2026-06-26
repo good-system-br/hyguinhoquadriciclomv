@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: 'Galeria de Fotos',
   description:
     'Veja fotos dos passeios de quadriciclo em Monte Verde MG. Aventura, pôr do sol e paisagens da Serra da Mantiqueira na Fazenda Adrenalina com Hyguinho Quadriciclos.',
-  alternates: { canonical: 'https://hyguinho-quadriciclos-mv.vercel.app/galeria' },
+  alternates: { canonical: 'https://www.hyguinhoquadriciclo.com.br/galeria' },
   openGraph: {
     title: 'Galeria — Passeio de Quadriciclo Monte Verde MG',
     description:

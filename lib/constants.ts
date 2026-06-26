@@ -8,4 +8,4 @@ export const GOOGLE_BUSINESS_LINK = 'https://g.page/r/CRfCXnY8kz4GEBM/review';
 export const INSTAGRAM_LINK = 'https://www.instagram.com/hyguinho_quadriciclos_mv/';
 export const FACEBOOK_LINK = 'https://facebook.com';
 export const COMPANY_NAME = 'Hyguinho Quadriciclos';
-export const SITE_URL = 'https://hyguinho-quadriciclos-mv.vercel.app';
+export const SITE_URL = 'https://www.hyguinhoquadriciclo.com.br/';
