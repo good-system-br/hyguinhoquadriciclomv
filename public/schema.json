@@ -7,13 +7,13 @@
       "name": "Hyguinho Quadriciclos MV",
       "alternateName": "Hyguinho Quadriciclos Monte Verde",
       "description": "Passeios de quadriciclo em Monte Verde MG na Fazenda Adrenalina. Aventura, segurança e diversão para 2 pessoas.",
-      "url": "https://hyguinho-quadriciclos-mv.vercel.app/",
+      "url": "https://www.hyguinhoquadriciclo.com.br//",
       "telephone": "+5535998793419",
       "email": "contato@hyguinhoquadriciclo.com.br",
-      "image": "https://hyguinho-quadriciclos-mv.vercel.app/img/maoesol.jpg",
+      "image": "https://www.hyguinhoquadriciclo.com.br/img/maoesol.jpg",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://hyguinho-quadriciclos-mv.vercel.app/logo.png",
+        "url": "https://www.hyguinhoquadriciclo.com.br/logo.png",
         "width": 280,
         "height": 60
       },
@@ -53,15 +53,15 @@
     },
     {
       "@type": "TouristAttraction",
-      "@id": "https://hyguinho-quadriciclos-mv.vercel.app/#tour-activity",
+      "@id": "https://www.hyguinhoquadriciclo.com.br/#tour-activity",
       "name": "Passeio de Quadriciclo em Monte Verde",
       "description": "Aventura de quadriciclo em trilhas exclusivas da Fazenda Adrenalina, com paisagens deslumbrantes da Serra da Mantiqueira",
       "image": [
-        "https://hyguinho-quadriciclos-mv.vercel.app/img/maoesol.jpg",
-        "https://hyguinho-quadriciclos-mv.vercel.app/img/maosolpessoas.jpg",
-        "https://hyguinhoquadriciclos-mv.vercel.app/img/fogueira.jpg"
+        "https://www.hyguinhoquadriciclo.com.br/img/maoesol.jpg",
+        "https://www.hyguinhoquadriciclo.com.br/img/maosolpessoas.jpg",
+        "https://www.hyguinhoquadriciclo.com.br/img/fogueira.jpg"
       ],
-      "url": "https://hyguinho-quadriciclos-mv.vercel.app/",
+      "url": "https://www.hyguinhoquadriciclo.com.br/",
       "potentialAction": {
         "@type": "ReserveAction",
         "name": "Reservar Passeio",
@@ -70,13 +70,13 @@
     },
     {
       "@type": "Service",
-      "@id": "https://hyguinho-quadriciclos-mv.vercel.app/#service-1",
+      "@id": "https://www.hyguinhoquadriciclo.com.br/#service-1",
       "name": "Passeio Normal de Quadriciclo",
       "description": "Passeio ideal para iniciantes de 40-60 minutos em trilhas de Monte Verde",
       "serviceType": "Tourism & Recreation",
       "provider": {
         "@type": "LocalBusiness",
-        "@id": "https://hyguinho-quadriciclos-mv.vercel.app/#organization"
+        "@id": "https://www.hyguinhoquadriciclo.com.br/#organization"
       },
       "areaServed": {
         "@type": "City",
@@ -92,13 +92,13 @@
     },
     {
       "@type": "Service",
-      "@id": "https://hyguinho-quadriciclos-mv.vercel.app/#service-2",
+      "@id": "https://www.hyguinhoquadriciclo.com.br/#service-2",
       "name": "Passeio com Parada no Pico",
       "description": "Passeio de 1.5 horas com parada no pico para fotos profissionais",
       "serviceType": "Tourism & Recreation",
       "provider": {
         "@type": "LocalBusiness",
-        "@id": "https://hyguinho-quadriciclos-mv.vercel.app/#organization"
+        "@id": "https://www.hyguinhoquadriciclo.com.br/#organization"
       },
       "areaServed": {
         "@type": "City",
@@ -114,13 +114,13 @@
     },
     {
       "@type": "Service",
-      "@id": "https://hyguinho-quadriciclos-mv.vercel.app/#service-3",
+      "@id": "https://www.hyguinhoquadriciclo.com.br/#service-3",
       "name": "Passeio Pôr do Sol",
       "description": "Experiência exclusiva ao entardecer com fogueira e lanches na Fazenda Adrenalina",
       "serviceType": "Tourism & Recreation",
       "provider": {
         "@type": "LocalBusiness",
-        "@id": "https://hyguinho-quadriciclos-mv.vercel.app/#organization"
+        "@id": "https://www.hyguinhoquadriciclo.com.br/#organization"
       },
       "areaServed": {
         "@type": "City",
@@ -136,15 +136,15 @@
     },
     {
       "@type": "WebSite",
-      "@id": "https://hyguinho-quadriciclos-mv.vercel.app/#website",
-      "url": "https://hyguinho-quadriciclos-mv.vercel.app/",
+      "@id": "https://www.hyguinhoquadriciclo.com.br/#website",
+      "url": "https://www.hyguinhoquadriciclo.com.br/",
       "name": "Hyguinho Quadriciclos Monte Verde",
       "description": "Site oficial de passeios de quadriciclo em Monte Verde MG",
       "potentialAction": {
         "@type": "SearchAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": "https://hyguinho-quadriciclos-mv.vercel.app/?s={search_term_string}"
+          "urlTemplate": "https://www.hyguinhoquadriciclo.com.br/?s={search_term_string}"
         },
         "query-input": "required name=search_term_string"
       }
@@ -156,33 +156,33 @@
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://hyguinho-quadriciclos-mv.vercel.app/"
+          "item": "https://www.hyguinhoquadriciclo.com.br/"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Passeios",
-          "item": "https://hyguinho-quadriciclos-mv.vercel.app/#tours"
+          "item": "https://www.hyguinhoquadriciclo.com.br/#tours"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Galeria",
-          "item": "https://hyguinho-quadriciclos-mv.vercel.app/#fotos"
+          "item": "https://www.hyguinhoquadriciclo.com.br/#fotos"
         },
         {
           "@type": "ListItem",
           "position": 4,
           "name": "Contato",
-          "item": "https://hyguinho-quadriciclos-mv.vercel.app/#contato"
+          "item": "https://www.hyguinhoquadriciclo.com.br/#contato"
         }
       ]
     },
     {
       "@type": "Organization",
-      "@id": "https://hyguinho-quadriciclos-mv.vercel.app/#org",
+      "@id": "https://www.hyguinhoquadriciclo.com.br/#org",
       "name": "Hyguinho Quadriciclos",
-      "url": "https://hyguinho-quadriciclos-mv.vercel.app/",
+      "url": "https://www.hyguinhoquadriciclo.com.br/",
       "contactPoint": {
         "@type": "ContactPoint",
         "contactType": "Customer Support",
