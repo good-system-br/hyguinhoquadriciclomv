@@ -5,7 +5,7 @@ export interface Tour {
   price: number;
   duration: string;
   maxPeople: number;
-  difficulty: 'Iniciante' | 'Intermediário' | 'Avançado';
+  difficulty: string;
   description: string;
   longDescription: string;
   highlights: string[];
@@ -24,7 +24,7 @@ export const tours: Tour[] = [
     price: 160,
     duration: '40 – 60 min',
     maxPeople: 2,
-    difficulty: 'Iniciante',
+    difficulty: '',
     adventureLevel: 3,
     description:
       'Trilha guiada ideal para iniciantes e quem quer curtir as paisagens de Monte Verde com segurança e emoção.',
@@ -79,7 +79,7 @@ export const tours: Tour[] = [
     price: 360,
     duration: '1h – 1h 30min',
     maxPeople: 2,
-    difficulty: 'Iniciante',
+    difficulty: '',
     adventureLevel: 4,
     description:
       'O passeio mais especial com a vista mais incrível de Monte Verde ao entardecer. Saída exclusiva às 17h.',
