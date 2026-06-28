@@ -123,7 +123,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   '@type': 'Offer',
                   name: 'Passeio Pôr do Sol de Quadriciclo',
                   description: 'Passeio de 1h30 com vista panorâmica ao entardecer. Saída às 17h.',
-                  price: '300',
+                  price: '',
                   priceCurrency: 'BRL',
                   availability: 'https://schema.org/InStock',
                 },

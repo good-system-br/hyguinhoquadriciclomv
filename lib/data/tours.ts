@@ -76,7 +76,7 @@ export const tours: Tour[] = [
     slug: 'por-do-sol',
     name: 'Pôr do Sol',
     subtitle: 'A experiência mais procurada',
-    price: 360,
+    price: 'Exclusivo',
     duration: '1h – 1h 30min',
     maxPeople: 2,
     difficulty: '',
