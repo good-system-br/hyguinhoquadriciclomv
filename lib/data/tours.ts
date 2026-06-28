@@ -37,7 +37,7 @@ export const tours: Tour[] = [
       'Capacidade para 2 pessoas',
       'Saídas das 10h às 17h',
     ],
-    image: '/img/passeio-quadriciclo-monte-verde-01.jpeg',
+    image: '/img/passeio-quadriciclo-monte-verde-19.jpeg',
     images: [
       '/img/passeio-quadriciclo-monte-verde-02.jpeg',
       '/img/passeio-quadriciclo-monte-verde-03.jpeg',
@@ -92,7 +92,7 @@ export const tours: Tour[] = [
       'Fotos profissionais incluídas',
       'Experiência ideal para casais',
     ],
-    image: '/img/passeio-quadriciclo-monte-verde-19.jpeg',
+    image: '/img/passeio-quadriciclo-monte-verde-03.jpeg',
     images: [
       '/img/passeio-quadriciclo-monte-verde-14.jpeg',
       '/img/passeio-quadriciclo-monte-verde-15.jpeg',

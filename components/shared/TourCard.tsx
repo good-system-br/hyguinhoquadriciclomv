@@ -33,19 +33,7 @@ export function TourCard({ tour, variant = 'default' }: Props) {
           loading="lazy"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-        <div className="absolute bottom-4 left-4 flex items-center gap-2">
-          <span
-            className={`text-xs font-bold px-2.5 py-1 rounded-full ${
-              tour.difficulty === ''
-                ? 'bg-moss/90 text-forest-950'
-                : tour.difficulty === 'Intermediário'
-                ? 'bg-amber-400/90 text-amber-950'
-                : 'bg-red-500/90 text-white'
-            }`}
-          >
-            {tour.difficulty}
-          </span>
-        </div>
+        
       </div>
 
       {/* Body */}

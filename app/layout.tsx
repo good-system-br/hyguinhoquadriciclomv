@@ -67,8 +67,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               alternateName: 'Hyguinho Quadriciclos',
               description: 'Passeios de quadriciclo em Monte Verde MG na Fazenda Adrenalina. Trilhas pela Serra da Mantiqueira, passeio normal, noturno e pôr do sol.',
               image: [
-                `${SITE_URL}/img/passeio-quadriciclo-monte-verde-01.jpeg`,
                 `${SITE_URL}/img/passeio-quadriciclo-monte-verde-19.jpeg`,
+                `${SITE_URL}/img/passeio-quadriciclo-monte-verde-01.jpeg`,
                 `${SITE_URL}/img/passeio-quadriciclo-monte-verde-12.jpeg`,
               ],
               '@id': `${SITE_URL}/`,
