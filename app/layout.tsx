@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     template: '%s | Hyguinho Quadriciclos',
   },
   description:
-    'Passeio de quadriciclo em Monte Verde MG na Fazenda Adrenalina. Aventura, segurança e diversão para 2 pessoas. Trilhas exclusivas a partir de R$160. Reserve já!',
+    'Passeio de quadriciclo em Monte Verde MG na Fazenda Adrenalina. Aventura, segurança e diversão para 2 pessoas. Reserve já pelo WhatsApp.',
   keywords: [
     'quadriciclo monte verde',
     'passeio de quadriciclo',
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Passeio de Quadriciclo em Monte Verde MG | Hyguinho Quadriciclos',
     description:
-      'Passeios de quadriciclo em Monte Verde com trilhas na Fazenda Adrenalina. 2 pessoas por quadriciclo, segurança total. Reserve a partir de R$160!',
+      'Passeios de quadriciclo em Monte Verde com trilhas na Fazenda Adrenalina. 2 pessoas por quadriciclo, segurança total. Reserve pelo WhatsApp.',
     type: 'website',
     locale: 'pt_BR',
     siteName: 'Hyguinho Quadriciclos Monte Verde',
@@ -109,32 +109,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               sameAs: [
                 'https://www.instagram.com/hyguinho_quadriciclos_mv/',
                 'https://g.page/r/CRfCXnY8kz4GEBM/review',
-              ],
-              makesOffer: [
-                {
-                  '@type': 'Offer',
-                  name: 'Passeio Normal de Quadriciclo',
-                  description: 'Trilha guiada de 40-60 min pela Fazenda Adrenalina. Ideal para iniciantes.',
-                  price: '160',
-                  priceCurrency: 'BRL',
-                  availability: 'https://schema.org/InStock',
-                },
-                {
-                  '@type': 'Offer',
-                  name: 'Passeio Pôr do Sol de Quadriciclo',
-                  description: 'Passeio de 1h30 com vista panorâmica ao entardecer. Saída às 17h.',
-                  price: '',
-                  priceCurrency: 'BRL',
-                  availability: 'https://schema.org/InStock',
-                },
-                {
-                  '@type': 'Offer',
-                  name: 'Passeio Noturno de Quadriciclo',
-                  description: 'Aventura noturna sob o céu estrelado de Monte Verde.',
-                  price: '160',
-                  priceCurrency: 'BRL',
-                  availability: 'https://schema.org/InStock',
-                },
               ],
             }),
           }}

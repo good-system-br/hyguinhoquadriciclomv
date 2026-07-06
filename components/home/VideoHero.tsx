@@ -31,7 +31,7 @@ export function VideoHero() {
         className="absolute inset-0 w-full h-full object-cover scale-105"
         aria-hidden="true"
       >
-        <source src="/img/hero.mp4" type="video/mp4" />
+        <source src="/img/videomarket.mp4" type="video/mp4" />
         <source src="/videos/hero.webm" type="video/webm" />
       </video>
 
@@ -111,7 +111,7 @@ export function VideoHero() {
           <div className="flex flex-wrap justify-center gap-8 md:gap-16">
             {[
               { value: '5.0', label: 'Estrelas Google', icon: '★' },
-              { value: 'R$160', label: 'A partir de', icon: '↗' },
+              { value: 'Preço especial', label: 'Entre em contato', icon: '↗' },
               { value: '2', label: 'Pessoas por quadri', icon: '◎' },
               { value: '100%', label: 'Segurança', icon: '✓' },
             ].map((stat) => (

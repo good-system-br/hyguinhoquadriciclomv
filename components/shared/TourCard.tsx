@@ -28,7 +28,7 @@ export function TourCard({ tour, variant = 'default' }: Props) {
       <div className="relative h-56 overflow-hidden">
         <img
           src={tour.image}
-          alt={tour.name}
+          alt={tour.imageAlt}
           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
           loading="lazy"
         />
@@ -69,7 +69,7 @@ export function TourCard({ tour, variant = 'default' }: Props) {
           ))}
         </ul>
 
-        {/* Duration + Price */}
+        {/* Duration + Contact */}
         <div
           className={`flex items-center justify-between py-4 border-y mb-6 ${
             isFeatured ? 'border-white/10' : 'border-stone'
@@ -88,13 +88,9 @@ export function TourCard({ tour, variant = 'default' }: Props) {
               {tour.duration}
             </span>
           </div>
-          <div className="text-right">
-            <span className={`text-xs ${isFeatured ? 'text-white/40' : 'text-forest-400'}`}>a partir de</span>
-            <p className={`font-display font-black text-3xl leading-none ${isFeatured ? 'text-white' : 'text-forest-900'}`}>
-              R${tour.price}
-            </p>
-            <span className={`text-xs ${isFeatured ? 'text-white/40' : 'text-forest-400'}`}>por quadriciclo</span>
-          </div>
+          <span className={`text-xs uppercase tracking-widest text-right ${isFeatured ? 'text-white/40' : 'text-forest-400'}`}>
+            Consulte no WhatsApp
+          </span>
         </div>
 
         {/* Actions */}

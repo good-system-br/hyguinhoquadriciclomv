@@ -29,7 +29,7 @@ export function Footer() {
               />
             </div>
             <p className="text-white/50 text-sm leading-relaxed mb-6 max-w-sm">
-              Aventuras inesquecíveis de quadriciclo na Fazenda Adrenalina, em Monte Verde — Minas Gerais. Segurança, diversão e natureza garantidas.
+              Hyguinho Quadriciclos Monte Verde. Aventuras inesquecíveis de quadriciclo na Fazenda Adrenalina, em Monte Verde - MG. Segurança, diversão e natureza garantidas.
             </p>
             <div className="flex gap-3">
               <a
@@ -77,6 +77,7 @@ export function Footer() {
             <h4 className="text-white font-bold text-sm uppercase tracking-widest mb-5">Contato</h4>
             <ul className="space-y-4">
               <li>
+                <p className="text-white font-semibold text-sm mb-2">Hyguinho Quadriciclos Monte Verde</p>
                 <a
                   href={`tel:+5535998793419`}
                   className="flex items-start gap-3 text-white/50 hover:text-moss text-sm transition-colors group"
@@ -86,6 +87,9 @@ export function Footer() {
                   </svg>
                   {PHONE}
                 </a>
+              </li>
+              <li>
+                <p className="text-white/45 text-sm leading-relaxed">Fazenda Adrenalina, Monte Verde - MG</p>
               </li>
               <li>
                 <a

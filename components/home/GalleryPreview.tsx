@@ -3,11 +3,11 @@ import { SectionHeader } from '@/components/shared/SectionHeader';
 import { AnimateOnScroll } from '@/components/shared/AnimateOnScroll';
 
 const previewImages = [
-  { src: '/img/passeio-quadriciclo-monte-verde-05.jpeg', alt: 'Aventura de quadriciclo em Monte Verde', span: 'md:col-span-2 md:row-span-2' },
-  { src: '/img/passeio-quadriciclo-monte-verde-14.jpeg', alt: 'Pôr do Sol na Fazenda Adrenalina', span: '' },
-  { src: '/img/passeio-quadriciclo-monte-verde-15.jpeg', alt: 'Vista panorâmica Monte Verde', span: '' },
-  { src: '/img/maosolpessoas.jpg', alt: 'Pessoas no passeio pôr do sol de quadriciclo Monte Verde', span: '' },
-  { src: '/img/passeio-quadriciclo-monte-verde-08.jpeg', alt: 'Passeio pôr do sol Monte Verde', span: '' },
+  { src: '/img/passeio-quadriciclo-monte-verde-05.jpeg', alt: 'Casal em passeio de quadriciclo na Fazenda Adrenalina em Monte Verde MG', span: 'md:col-span-2 md:row-span-2' },
+  { src: '/img/passeio-quadriciclo-monte-verde-14.jpeg', alt: 'Casal andando de quadriciclo no pôr do sol em Monte Verde MG', span: '' },
+  { src: '/img/passeio-quadriciclo-monte-verde-15.jpeg', alt: 'Vista panorâmica da Serra da Mantiqueira no passeio de quadriciclo', span: '' },
+  { src: '/img/maosolpessoas.jpg', alt: 'Pessoas no passeio de quadriciclo ao pôr do sol em Monte Verde', span: '' },
+  { src: '/img/passeio-quadriciclo-monte-verde-08.jpeg', alt: 'Passeio de quadriciclo no fim de tarde na Fazenda Adrenalina', span: '' },
 ];
 
 export function GalleryPreview() {

@@ -10,12 +10,12 @@ export const metadata: Metadata = {
     absolute: 'Passeio de Quadriciclo em Monte Verde MG | Hyguinho Quadriciclos',
   },
   description:
-    'Passeio de quadriciclo em Monte Verde MG na Fazenda Adrenalina. Trilhas exclusivas pela Serra da Mantiqueira para 2 pessoas, guia especializado e equipamentos inclusos. A partir de R$160. Reserve pelo WhatsApp!',
+    'Passeio de quadriciclo em Monte Verde MG na Fazenda Adrenalina. Trilhas exclusivas pela Serra da Mantiqueira para 2 pessoas, guia especializado e equipamentos inclusos. Reserve pelo WhatsApp!',
   alternates: { canonical: 'https://www.hyguinhoquadriciclo.com.br/' },
   openGraph: {
     title: 'Passeio de Quadriciclo em Monte Verde MG | Hyguinho Quadriciclos',
     description:
-      'Trilhas exclusivas na Fazenda Adrenalina, Monte Verde MG. Nota 5.0 no Google, guia experiente, equipamentos inclusos. Passeio Normal, Noturno e Pôr do Sol a partir de R$160.',
+      'Trilhas exclusivas na Fazenda Adrenalina, Monte Verde MG. Nota 5.0 no Google, guia experiente e equipamentos inclusos. Passeio Normal, Noturno e Pôr do Sol com atendimento via WhatsApp.',
     images: [{
       url: '/img/passeio-quadriciclo-monte-verde-10.jpeg',
       width: 1200,
