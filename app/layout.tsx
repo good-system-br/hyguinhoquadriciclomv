@@ -49,6 +49,15 @@ export const metadata: Metadata = {
     siteName: 'Hyguinho Quadriciclos Monte Verde',
     images: [{ url: '/img/passeio-quadriciclo-monte-verde-01.jpeg', width: 1200, height: 630 }],
   },
+  icons: {
+    icon: [
+      { url: '/img/logo.png', type: 'image/png' },
+    ],
+    shortcut: ['/img/logo.png'],
+    apple: [
+      { url: '/img/logo.png' },
+    ],
+  },
   robots: { index: true, follow: true },
   verification: { google: 'kz_ee3AAI3gaZDRqUpmlrnudI_FH9SHFCg5zNqK9Xgg' },
 };
